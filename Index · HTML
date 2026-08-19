@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Associação Restauração — Instituto Restauração | Salvador, BA</title>
+<meta name="description" content="Existimos para que, através do nosso tempo e serviços, pessoas sejam alcançadas e acolhidas. Atendimento psicológico, jurídico, esportivo e cultural em Salvador, Bahia.">
+<link rel="icon" href="images/logo-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;1,400&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <img src="images/logo-mark.png" alt="Símbolo Associação Restauração">
+      <span class="brand-name">Associação<br>Restauração</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Início</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="atendimentos.html">Atendimentos</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contato.html">Contato</a></li>
+      <li><a href="contato.html" class="nav-cta">Quero apoiar</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-rings" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <div>
+      <div class="eyebrow">Instituto Restauração · Salvador, BA</div>
+      <h1>Existimos para que pessoas sejam <em>alcançadas</em> e acolhidas.</h1>
+      <p class="hero-lead">Levamos cuidado psicológico, jurídico, esportivo e cultural a quem a sociedade, muitas vezes, não consegue acessar — com ética, simplicidade e amor ao próximo.</p>
+      <div class="hero-actions">
+        <a href="atendimentos.html" class="btn btn-primary">Conhecer os atendimentos</a>
+        <a href="contato.html" class="btn btn-ghost">Fale conosco</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>8</strong><span>frentes de atendimento</span></div>
+        <div><strong>100%</strong><span>gratuito à comunidade</span></div>
+        <div><strong>Salvador</strong><span>São Caetano, Bahia</span></div>
+      </div>
+    </div>
+    <div class="hero-emblem">
+      <img src="images/logo-mark.png" alt="Símbolo da Associação Restauração: pessoas em círculo ao redor de uma muda brotando">
+    </div>
+  </div>
+</section>
+
+<section class="section-cream">
+  <div class="container">
+    <div class="grow-divider" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M12 21V10M12 10c0-3 2-5 6-5-1 4-3 6-6 5Zm0 0C12 7 10 5 6 5c1 4 3 6 6 5Z"/></svg>
+      <span class="line"></span>
+    </div>
+    <div class="section-head center" style="margin-left:auto;margin-right:auto;">
+      <div class="eyebrow" style="justify-content:center;">Missão · Visão · Valores</div>
+      <h2>O que nos faz seguir todos os dias</h2>
+    </div>
+    <div class="pillars">
+      <div class="pillar reveal">
+        <div class="num">Missão</div>
+        <h3>Acolher quem precisa</h3>
+        <p>Existimos para que, através do nosso tempo e serviços, pessoas sejam alcançadas e acolhidas.</p>
+      </div>
+      <div class="pillar reveal">
+        <div class="num">Visão</div>
+        <h3>Chegar onde ninguém chega</h3>
+        <p>Alcançar pessoas que a sociedade não consegue acessar, prestando um serviço de alto valor.</p>
+      </div>
+      <div class="pillar reveal">
+        <div class="num">Valores</div>
+        <h3>Ética, amor e simplicidade</h3>
+        <p>Trabalhamos com ética e amor, com base na transparência, no respeito às pessoas, no foco na simplicidade e no respeito ao próximo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Nossos atendimentos</div>
+      <h2>Cuidado para o corpo, a mente e a vida</h2>
+      <p>Oito frentes de atendimento pensadas para acolher a pessoa como um todo — da saúde emocional ao acesso a direitos.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 3a6 6 0 0 1 6 6c0 2-1 3-1 4v2H8v-2c0-1-1-2-1-4a6 6 0 0 1 2-6"/><path d="M9 15v3a2 2 0 0 0 2 2h2"/><path d="M12 8.5c.6-.8 2-.8 2.4 0 .3.6-.1 1-1.2 1.9-1.1-.9-1.5-1.3-1.2-1.9Z"/></svg></div>
+        <div class="n">01</div><h4>Atendimento Psicológico</h4>
+        <p>Escuta e cuidado emocional para quem precisa de apoio.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="4.5" r="1.8"/><path d="M12 8v5l-4 7M12 13l4 7M8 13h8"/></svg></div>
+        <div class="n">02</div><h4>Ballet</h4>
+        <p>Aulas de dança que trabalham corpo, disciplina e expressão.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="6" cy="6" r="1.6"/><path d="M8 8l8 2 4-1M4 18l6-6 3 3 6-4"/></svg></div>
+        <div class="n">03</div><h4>Aula de Pilates</h4>
+        <p>Fortalecimento, postura e consciência corporal.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 12h2M18 12h2M6 9v6M18 9v6M8 12h8"/></svg></div>
+        <div class="n">04</div><h4>Funcional</h4>
+        <p>Treinos em grupo para força, ânimo e saúde.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 17l4-4 3 2 5-6 4 1"/><path d="M13 8l3-2 2 2-2 3"/></svg></div>
+        <div class="n">05</div><h4>Treinão</h4>
+        <p>Encontros de corrida e movimento para toda a comunidade.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="8" cy="17" r="2.3"/><path d="M9.6 15.5 17 4l2 1.3-6.7 10.8"/></svg></div>
+        <div class="n">06</div><h4>Aula de Instrumentos</h4>
+        <p>Música como ferramenta de expressão e pertencimento.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3v18M6 8l-3 5a3 3 0 0 0 6 0l-3-5Zm12 0-3 5a3 3 0 0 0 6 0l-3-5ZM4 8h16M9 21h6"/></svg></div>
+        <div class="n">07</div><h4>Balcão Jurídico</h4>
+        <p>Orientação para quem precisa acessar seus direitos.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 9h16l-1.5 10a2 2 0 0 1-2 2H7.5a2 2 0 0 1-2-2L4 9Z"/><path d="M9 9a3 3 0 0 1 6 0"/><path d="M12 12.5c.9-1.1 2.6-1 2.9.2.3 1-.4 1.7-2.9 3.3-2.5-1.6-3.2-2.3-2.9-3.3.3-1.2 2-1.3 2.9-.2Z"/></svg></div>
+        <div class="n">08</div><h4>Quilo do Amor</h4>
+        <p>Doação de alimentos para famílias em vulnerabilidade.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="impact">
+  <div class="container">
+    <div class="section-head center" style="margin-left:auto;margin-right:auto;">
+      <div class="eyebrow" style="justify-content:center;">Nosso propósito, em números</div>
+      <h2 style="color:#fff;">Um serviço de alto valor para quem mais precisa</h2>
+    </div>
+    <div class="impact-grid">
+      <div class="reveal"><strong>8</strong><span>frentes de atendimento</span></div>
+      <div class="reveal"><strong>1</strong><span>bairro, um só endereço acolhedor</span></div>
+      <div class="reveal"><strong>0</strong><span>custo para quem é atendido</span></div>
+      <div class="reveal"><strong>+1</strong><span>vida transformada a cada dia</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-cream">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Do blog</div>
+      <h2>Histórias e novidades do instituto</h2>
+    </div>
+    <div class="post-grid">
+      <article class="post-card reveal">
+        <div class="post-thumb"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M12 21V10M12 10c0-3 2-5 6-5-1 4-3 6-6 5Zm0 0C12 7 10 5 6 5c1 4 3 6 6 5Z"/></svg></div>
+        <div class="post-body">
+          <div class="post-date">Em breve</div>
+          <h3>Como nasceu a Associação Restauração</h3>
+          <p>A história por trás da missão de acolher quem a sociedade não alcança.</p>
+          <a href="blog.html" class="post-link">Ler mais</a>
+        </div>
+      </article>
+      <article class="post-card reveal">
+        <div class="post-thumb"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M12 21V10M12 10c0-3 2-5 6-5-1 4-3 6-6 5Zm0 0C12 7 10 5 6 5c1 4 3 6 6 5Z"/></svg></div>
+        <div class="post-body">
+          <div class="post-date">Em breve</div>
+          <h3>Bastidores do Quilo do Amor</h3>
+          <p>Como funciona nossa campanha de doação de alimentos em São Caetano.</p>
+          <a href="blog.html" class="post-link">Ler mais</a>
+        </div>
+      </article>
+      <article class="post-card reveal">
+        <div class="post-thumb"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M12 21V10M12 10c0-3 2-5 6-5-1 4-3 6-6 5Zm0 0C12 7 10 5 6 5c1 4 3 6 6 5Z"/></svg></div>
+        <div class="post-body">
+          <div class="post-date">Em breve</div>
+          <h3>Por que o balcão jurídico importa</h3>
+          <p>Entenda como orientação jurídica gratuita muda histórias de vida.</p>
+          <a href="blog.html" class="post-link">Ler mais</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2>Quer conhecer de perto o nosso trabalho?</h2>
+      <p>Visite o instituto, seja voluntário ou apoie uma das nossas frentes de atendimento.</p>
+    </div>
+    <a href="contato.html" class="btn btn-dark">Entrar em contato</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo-mark.png" alt="">
+          <span>Associação Restauração</span>
+        </div>
+        <p style="max-width:32ch;font-size:.9rem;">Existimos para que, através do nosso tempo e serviços, pessoas sejam alcançadas e acolhidas.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navegação</h5>
+        <ul>
+          <li><a href="sobre.html">Sobre nós</a></li>
+          <li><a href="atendimentos.html">Atendimentos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Atendimentos</h5>
+        <ul>
+          <li><a href="atendimentos.html">Psicológico</a></li>
+          <li><a href="atendimentos.html">Balcão Jurídico</a></li>
+          <li><a href="atendimentos.html">Quilo do Amor</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Endereço</h5>
+        <ul>
+          <li>Rua Vivência Francisca, 26</li>
+          <li>São Caetano, Salvador — BA</li>
+          <li>Brasil</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Associação Restauração. Todos os direitos reservados.</span>
+      <span>Feito com cuidado para acolher.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
