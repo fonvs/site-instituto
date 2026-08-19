@@ -1,0 +1,49 @@
+// Instituto Restauração — interações leves (sem dependências)
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Menu mobile
+  const toggle = document.querySelector('.nav-toggle');
+  const links = document.querySelector('.nav-links');
+  if (toggle && links) {
+    toggle.addEventListener('click', () => {
+      const open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toggle.textContent = open ? '✕' : '☰';
+    });
+    links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      links.classList.remove('open');
+      toggle.textContent = '☰';
+    }));
+  }
+
+  // Revela elementos ao rolar a página
+  const revealEls = document.querySelectorAll('.reveal, .grow-divider');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealEls.forEach(el => io.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('in-view'));
+  }
+
+  // Formulário de contato (demonstração — sem backend configurado ainda)
+  const form = document.querySelector('#contact-form');
+  if (form) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const msg = document.querySelector('#form-msg');
+      if (msg) {
+        msg.textContent = 'Mensagem pronta para envio! Conecte este formulário a um serviço de e-mail (ex: Formspree, EmailJS) ou ao seu backend para receber os contatos.';
+        msg.style.display = 'block';
+      }
+      form.reset();
+    });
+  }
+});
